@@ -19,7 +19,7 @@
 💼 Was a Trainee Software Engineer Intern at *CGI*  
 🔭 Currently working on a *surprise project* involving distributed systems  
 🌱 Learning *C++* and *Data Structures & Algorithms*  
-🤝 Open to collaborating on *low-level systems, **AI projects, and **C++ development*  
+🤝 Open to collaborating on *low-level systems*, *AI projects*, and *C++ development*  
 🎮 Passionate about video games, music, and imagining the unimaginable  
 📍 Based in Bangalore, India
 
