@@ -17,13 +17,6 @@ I'm a Junior AI Engineer at **[Kenpath](https://kenpath.io)**, working across fu
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
-  <img src="./assets/metrics-light.svg" width="100%" alt="GitHub activity: contributions over the last year, longest streak, public repos, stars and top languages">
-</picture>
-
-<br>
-
 ### Other work
 
 | | | |
