@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main, revamp-profile]
-    paths: ["assets/src/**"]
+    paths: ["assets/src/**", ".github/workflows/metrics.yml"]
 
 permissions:
   contents: write
