@@ -129,17 +129,22 @@ def sanctum_visual(c):
     return css, g
 
 
-for name, c in THEMES.items():
-    (OUT / f"hero-{name}.svg").write_text(hero(c))
-    (OUT / f"flame-{name}.svg").write_text(card(
-        c, "01", "LANGUAGE MODELS", "FLAME",
-        ["A Rust + Candle framework for training language",
-         "models from scratch on a single laptop. The base",
-         "for FLAME-Research and Lintless, a Rust error fixer."],
-        "RUST · CANDLE · CUDA", flame_visual(c)))
-    (OUT / f"sanctum-{name}.svg").write_text(card(
-        c, "02", "PRIVATE MESSAGING", "Sanctum",
-        ["A peer-to-peer messenger for close friends. No",
-         "servers, no accounts: end-to-end encrypted with",
-         "MLS and routed over Tor. Android, now in beta."],
-        "RUST · FLUTTER · TOR · MLS", sanctum_visual(c)))
+def main():
+    for name, c in THEMES.items():
+        (OUT / f"hero-{name}.svg").write_text(hero(c))
+        (OUT / f"flame-{name}.svg").write_text(card(
+            c, "01", "LANGUAGE MODELS", "FLAME",
+            ["A Rust + Candle framework for training language",
+             "models from scratch on a single laptop. The base",
+             "for FLAME-Research and Lintless, a Rust error fixer."],
+            "RUST · CANDLE · CUDA", flame_visual(c)))
+        (OUT / f"sanctum-{name}.svg").write_text(card(
+            c, "02", "PRIVATE MESSAGING", "Sanctum",
+            ["A peer-to-peer messenger for close friends. No",
+             "servers, no accounts: end-to-end encrypted with",
+             "MLS and routed over Tor. Android, now in beta."],
+            "RUST · FLUTTER · TOR · MLS", sanctum_visual(c)))
+
+
+if __name__ == "__main__":
+    main()

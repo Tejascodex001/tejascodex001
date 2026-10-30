@@ -9,11 +9,18 @@ I'm a Junior AI Engineer at **[Kenpath](https://kenpath.io)**, working across fu
 
 <br>
 
-<a href="https://learn-rust-flame-site.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/flame-dark.svg"><img src="./assets/flame-light.svg" width="49%" alt="FLAME — a Rust + Candle framework for training language models from scratch"></picture></a>&nbsp;<a href="https://github.com/Tejascodex001/sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sanctum-dark.svg"><img src="./assets/sanctum-light.svg" width="49%" alt="Sanctum — a peer-to-peer, Tor-routed messenger"></picture></a>
+<a href="https://learn-rust-flame-site.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/flame-dark.svg"><img src="./assets/flame-light.svg" width="49%" alt="FLAME — a Rust + Candle framework for training language models from scratch"></picture></a>&nbsp;<a href="https://tejascodex001.github.io/sanctum/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sanctum-dark.svg"><img src="./assets/sanctum-light.svg" width="49%" alt="Sanctum — a peer-to-peer, Tor-routed messenger"></picture></a>
 
 **FLAME** is built at RTensorLabs: a hand-written Transformer, tokenizer and optimizer in Rust, with training you can pause and resume to bit-identical weights. [Learn how it works](https://learn-rust-flame-site.vercel.app) · [Try the visualizer](https://huggingface.co/spaces/Tejascodex001/flame-visualizer)
 
-**Sanctum** sends messages, photos and calls straight between phones over Tor onion services. Each chat gets a sigil generated from its keys: if both phones show the same one, nobody is listening. [Source and download](https://github.com/Tejascodex001/sanctum)
+**Sanctum** sends messages, photos and calls straight between phones over Tor onion services. Each chat gets a sigil generated from its keys: if both phones show the same one, nobody is listening. [Website](https://tejascodex001.github.io/sanctum/) · [Source](https://github.com/Tejascodex001/sanctum)
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
+  <img src="./assets/metrics-light.svg" width="100%" alt="GitHub activity: contributions over the last year, longest streak, public repos, stars and top languages">
+</picture>
 
 <br>
 
