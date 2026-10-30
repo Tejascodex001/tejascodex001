@@ -41,7 +41,7 @@ struct Tejas {
 <tr>
 <td width="50%" valign="top">
 
-### 🔥 [FLAME](https://github.com/RTensorLabs) &nbsp;<sub>`RTensorLabs`</sub>
+### 🔥 FLAME &nbsp;<sub>`RTensorLabs`</sub>
 **Framework for Lightweight AI Model Engineering.**
 
 A small, readable **Rust + Candle** framework for training language models **from scratch on one laptop**. Covers the whole pipeline: a BPE tokenizer, a Transformer (RoPE, SwiGLU, RMSNorm), hand-written AdamW and a training run you can pause and resume to the exact same weights. Its logits match a PyTorch reference to within **5e-7**.
@@ -49,7 +49,7 @@ A small, readable **Rust + Candle** framework for training language models **fro
 - 🧪 **FLAME-Research**: dynamically routed modular models compared against dense and MoE baselines
 - 🦀 **Lintless**: the FLAME Rust base model fine-tuned to explain and fix `rustc` errors. A fix only counts if the file compiles afterwards
 
-<a href="https://huggingface.co/spaces/Tejascodex001/flame-visualizer"><img src="https://img.shields.io/badge/🤗_Try_the_Visualizer-FFD21E?style=flat-square&labelColor=0b0f1a" /></a><br/>
+<a href="https://huggingface.co/spaces/Tejascodex001/flame-visualizer"><img src="https://img.shields.io/badge/🤗_Try_the_Visualizer-FFD21E?style=flat-square&labelColor=0b0f1a" /></a> <a href="https://learn-rust-flame-site.vercel.app"><img src="https://img.shields.io/badge/📘_Learn_FLAME-2e9ef7?style=flat-square&labelColor=0b0f1a" /></a><br/>
 <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" /> <img src="https://img.shields.io/badge/Candle-ff7a18?style=flat-square" /> <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" /> <img src="https://img.shields.io/badge/LLM_from_scratch-af00ff?style=flat-square" />
 
 </td>
