@@ -1,53 +1,74 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" width="100%" alt="Tejas Gowda S — Junior AI Engineer at Kenpath. I train language models from scratch, build private software, and write code that runs close to the metal.">
+  <img src="./assets/hero-light.svg" width="100%" alt="Tejas Gowda S — Junior AI Engineer at Kenpath. Language models, private software, and systems engineering.">
 </picture>
 
-<br>
+I'm **Tejas Gowda S**, a Junior AI Engineer at **[Kenpath](https://kenpath.io)**,
+working across full-stack development and AI.
 
-I'm a Junior AI Engineer at **[Kenpath](https://kenpath.io)**, working across full-stack development and AI. Outside work I build two things I care about: a framework for training language models from first principles, and a messenger that doesn't need anyone's servers.
+I also maintain **[RTensorLabs](https://github.com/RTensorLabs)**, an independent
+research and engineering lab. My current projects explore language models,
+systems engineering, and private communication. The lab is a home for new ideas
+across fields, with the problem guiding what we build next.
 
-<br>
+## Projects at RTensorLabs
 
-<a href="https://learn-rust-flame-site.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/flame-dark.svg"><img src="./assets/flame-light.svg" width="49%" alt="FLAME — a Rust + Candle framework for training language models from scratch"></picture></a>&nbsp;<a href="https://tejascodex001.github.io/sanctum/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sanctum-dark.svg"><img src="./assets/sanctum-light.svg" width="49%" alt="Sanctum — a peer-to-peer, Tor-routed messenger"></picture></a>
+### FLAME · Language models from first principles
 
-**FLAME** is built at RTensorLabs: a hand-written Transformer, tokenizer and optimizer in Rust, with training you can pause and resume to bit-identical weights. [Learn how it works](https://learn-rust-flame-site.vercel.app) · [Try the visualizer](https://huggingface.co/spaces/Tejascodex001/flame-visualizer)
+<a href="https://learn-rust-flame-site.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/flame-dark.svg"><img src="./assets/flame-light.svg" width="600" alt="FLAME — a Rust and Candle framework for exploring language-model training"></picture></a>
 
-**Sanctum** sends messages, photos and calls straight between phones over Tor onion services. Each chat gets a sigil generated from its keys: if both phones show the same one, nobody is listening. [Website](https://tejascodex001.github.io/sanctum/) · [Source](https://github.com/Tejascodex001/sanctum)
+A framework for building and training language models in **Rust with Candle**,
+with a hand-written Transformer, tokenizer, and optimizer. The learning site and
+interactive visualizer explain the pieces behind the model.
 
-<br>
+[Explore FLAME](https://learn-rust-flame-site.vercel.app/) ·
+[Try the visualizer](https://huggingface.co/spaces/Tejascodex001/flame-visualizer)
 
-### Other work
+### Sanctum · A private space for your close circle
 
-| | | |
-|:--|:--|:--|
-| [**GuardLayer**](https://github.com/Tejascodex001/GuardLayer) | Guardrails middleware that screens LLM inputs and outputs for prompt injection, jailbreaks, toxicity and PII, with an explainable risk score | Python |
-| [**SmartGuard**](https://github.com/Tejascodex001/smartguard) | LLM firewall built on a DeBERTa classifier, 99.7% recall on prompt injection at ~40 ms on CPU | Python |
-| [**Vision Engine**](https://github.com/Tejascodex001/Cpp-image-and-video-processing-pipeline) | Real-time video pipeline with hand-written convolutions and zero heap allocations in the hot loop | C++ |
-| [**Anomaly Detector**](https://github.com/Tejascodex001/System-anomaly-detector) | Multithreaded Linux telemetry collector that flags anomalies with rolling z-scores | C++ |
-| [**Auto-Immunity**](https://github.com/Tejascodex001/Auto-immunity-for-systems) | Cyber-defense simulation where RL agents and a RAG-backed LLM respond to attacks | Python |
+<a href="https://sanctum-rtensorlabs.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sanctum-dark.svg"><img src="./assets/sanctum-light.svg" width="600" alt="Sanctum — private Android chats, calls, and plans, using Tor by default"></picture></a>
 
-<br>
+An Android messenger built with **Rust and Flutter**. Chats, calls, photos, and
+plans travel between phones, with end-to-end encryption and Tor by default.
+Personal sigils make conversations recognisable; QR verification and safety
+numbers help friends check identities. A matching sigil does not guarantee that
+a phone or network is uncompromised.
 
-### Experience
+[Website](https://sanctum-rtensorlabs.vercel.app/) ·
+[Source](https://github.com/RTensorLabs/sanctum) ·
+[Download the Android beta](https://github.com/RTensorLabs/sanctum/releases/latest)
 
-**Kenpath** · Junior AI Engineer · Sep 2026 – present<br>
-Full-stack development and AI engineering.
+## Other work
 
-**CGI** · Software Engineer Intern · 2025<br>
-Built an OCR pipeline with PaddleOCR that fed extracted documents into a RAG system for question answering.
+| Project | What I explored |
+|:--|:--|
+| [**GuardLayer**](https://github.com/Tejascodex001/GuardLayer) | Python middleware for screening LLM inputs and outputs, with checks for prompt injection, jailbreaks, toxicity, and personal information. |
+| [**SmartGuard**](https://github.com/Tejascodex001/smartguard) | An LLM firewall using a DeBERTa classifier to detect prompt injection. |
+| [**Vision Engine**](https://github.com/Tejascodex001/Cpp-image-and-video-processing-pipeline) | A real-time C++ image and video pipeline with hand-written convolutions. |
+| [**Anomaly Detector**](https://github.com/Tejascodex001/System-anomaly-detector) | A multithreaded Linux telemetry collector using rolling z-scores to flag anomalies. |
+| [**Auto-Immunity**](https://github.com/Tejascodex001/Auto-immunity-for-systems) | A cyber-defense simulation combining reinforcement learning and a RAG-backed language model. |
 
-**Global Academy of Technology** · B.E. AI & Data Science · 2026<br>
-Graduated with a CGPA of 9.5.
+## Background
 
-<br>
+**Kenpath · Junior AI Engineer**<br>
+September 2026 – present · Full-stack development and AI engineering.
 
-### Tools
+**CGI · Software Engineer Intern**<br>
+2025 · Built an OCR pipeline with PaddleOCR, feeding extracted documents into a
+RAG system for question answering.
 
-**Languages** Rust, C++, Python, Dart<br>
-**ML** PyTorch, Candle, CUDA, TensorFlow, scikit-learn, OpenCV<br>
-**Everything else** Flutter, Docker, Linux (Arch), Git
+**Global Academy of Technology · B.E. in AI & Data Science**<br>
+2026 · Graduated with a CGPA of 9.5.
 
-<br>
+## Tools I work with
 
-<sub>[tejas12gowda@gmail.com](mailto:tejas12gowda@gmail.com) · [LinkedIn](https://linkedin.com/in/tejas-gowda-sridhara) · [X](https://twitter.com/tejas_gowda_001)</sub>
+**Languages:** Rust, C++, Python, Dart<br>
+**ML:** PyTorch, Candle, CUDA, TensorFlow, scikit-learn, OpenCV<br>
+**Development:** Flutter, Docker, Linux (Arch), Git
+
+## Connect
+
+[Email](mailto:tejas12gowda@gmail.com) ·
+[LinkedIn](https://linkedin.com/in/tejas-gowda-sridhara) ·
+[X](https://twitter.com/tejas_gowda_001) ·
+[RTensorLabs](https://github.com/RTensorLabs)
