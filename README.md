@@ -1,6 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" width="100%" alt="Tejas Gowda S — Junior AI Engineer at Kenpath. Language models, private software, and systems engineering.">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/hero-v2-still-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-v2-still-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-v2-dark.svg">
+  <img src="./assets/hero-v2-light.svg" width="100%" alt="Tejas Gowda S — AI engineer at Kenpath and maintainer of RTensorLabs">
 </picture>
 
 I'm **Tejas Gowda S**, a Junior AI Engineer at **[Kenpath](https://kenpath.io)**,
@@ -11,11 +13,18 @@ research and engineering lab. My current projects explore language models,
 systems engineering, and private communication. The lab is a home for new ideas
 across fields, with the problem guiding what we build next.
 
+<p><a href="https://github.com/RTensorLabs"><img src="./assets/brand/rtensorlabs-logo.png" width="64" alt="RTensorLabs logo"></a></p>
+
 ## Projects at RTensorLabs
 
-### FLAME · Language models from first principles
+<h3><img src="./assets/brand/flame-logo.png" width="36" height="36" alt=""> FLAME · Language models from first principles</h3>
 
-<a href="https://learn-rust-flame-site.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/flame-dark.svg"><img src="./assets/flame-light.svg" width="600" alt="FLAME — a Rust and Candle framework for exploring language-model training"></picture></a>
+<a href="https://learn-rust-flame-site.vercel.app/"><picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/flame-v2-still-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/flame-v2-still-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/flame-v2-dark.svg">
+  <img src="./assets/flame-v2-light.svg" width="100%" alt="FLAME — language models from first principles">
+</picture></a>
 
 A framework for building and training language models in **Rust with Candle**,
 with a hand-written Transformer, tokenizer, and optimizer. The learning site and
@@ -26,7 +35,12 @@ interactive visualizer explain the pieces behind the model.
 
 ### Sanctum · A private space for your close circle
 
-<a href="https://sanctum-rtensorlabs.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/sanctum-dark.svg"><img src="./assets/sanctum-light.svg" width="600" alt="Sanctum — private Android chats, calls, and plans, using Tor by default"></picture></a>
+<a href="https://sanctum-rtensorlabs.vercel.app/"><picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/sanctum-v2-still-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/sanctum-v2-still-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sanctum-v2-dark.svg">
+  <img src="./assets/sanctum-v2-light.svg" width="100%" alt="Sanctum — a private space for your close circle">
+</picture></a>
 
 An Android messenger built with **Rust and Flutter**. Chats, calls, photos, and
 plans travel between phones, with end-to-end encryption and Tor by default.
