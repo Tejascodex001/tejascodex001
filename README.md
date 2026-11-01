@@ -19,12 +19,16 @@ across fields, with the problem guiding what we build next.
 
 <h3><img src="./assets/brand/flame-logo.png" width="36" height="36" alt=""> FLAME · Language models from first principles</h3>
 
-<a href="https://learn-rust-flame-site.vercel.app/"><picture>
+<p>
+<a href="https://learn-rust-flame-site.vercel.app/">
+<picture>
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/flame-v2-still-dark.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/flame-v2-still-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/flame-v2-dark.svg">
   <img src="./assets/flame-v2-light.svg" width="100%" alt="FLAME — language models from first principles">
-</picture></a>
+</picture>
+</a>
+</p>
 
 A framework for building and training language models in **Rust with Candle**,
 with a hand-written Transformer, tokenizer, and optimizer. The learning site and
@@ -35,12 +39,16 @@ interactive visualizer explain the pieces behind the model.
 
 ### Sanctum · A private space for your close circle
 
-<a href="https://sanctum-rtensorlabs.vercel.app/"><picture>
+<p>
+<a href="https://sanctum-rtensorlabs.vercel.app/">
+<picture>
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/sanctum-v2-still-dark.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/sanctum-v2-still-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sanctum-v2-dark.svg">
   <img src="./assets/sanctum-v2-light.svg" width="100%" alt="Sanctum — a private space for your close circle">
-</picture></a>
+</picture>
+</a>
+</p>
 
 An Android messenger built with **Rust and Flutter**. Chats, calls, photos, and
 plans travel between phones, with end-to-end encryption and Tor by default.
